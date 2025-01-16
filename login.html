@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <title>Login - Heart App</title>
+</head>
+<body>
+    <div class="container vh-100 d-flex align-items-center justify-content-center">
+        <div class="row shadow-lg rounded overflow-hidden" style="max-width: 900px; width: 100%;">
+            <!-- Image Section -->
+            <div class="col-md-6 d-none d-md-block bg-danger">
+                <div class="h-100 d-flex align-items-center justify-content-center">
+                    <img src="Ghana.png" alt="Signup Illustration" class="img-fluid" style="max-height: 400px;">
+                </div>
+            </div>
+            <!-- Login Form Section -->
+            <div class="col-md-6 p-5 bg-white">
+                <h3 class="text-center mb-4">Login / Create User</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" id="username" class="form-control" placeholder="Enter your username" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" id="password" class="form-control" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                    <p class="mt-3 text-center">
+                        Don't have an account? <a href="register.html" class="text-primary fw-bold">Register here</a>
+                        Forgotten Password? <a href="forgotten.html" class="text-primary fw-bold">Recover Password</a>
+                    </p>
+                    <footer>
+                       <p> <div class="footer">
+                            &copy;Heart App 2024
+                        </p>
+                        </div>
+                    </footer>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#data-display {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+svg {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+<!-- Left Section -->
+    <div class="left-section">
+       <img src="OIP.jpeg" alt="Login Illustration">
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <h1>Login / Create User</h1>
+            <form id="user-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Username" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required placeholder="Enter your password">
+                
+                <button type="submit">Submit</button>
+            </form>
+            <p>Don't have an account? <a href="register.html">Register here</a></p>
+        </div>
+    </div>
